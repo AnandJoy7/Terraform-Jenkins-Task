@@ -5,6 +5,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example_bucket" {
-  buckket = "ducket1"
+  bucket = "ducket1"
   acl    = "private"
 }
